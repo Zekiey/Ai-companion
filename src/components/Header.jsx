@@ -1,18 +1,18 @@
 import logo from '../images/Designlogo.png';
 const Header = () => {
     return (
-        <div className="flex w-full pt-10 animate-moveinopacity" >
+        <div className="flex w-full pt-10 animate-moveinopacity box-border" >
             <div className='flex w-[30vw]'>
                 <img className='w-10' src={logo} alt="" />
                 <span className='text-[#FFFFFF] ml-2 font-BeauRivage'>OFAI</span>
 
             </div>
             <div className='text-[#FFFFFF] w-[40vw]'>
-                <ul className='flex justify-between font-inter'>
-                    <li className='hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434] rounded-2xl hover:border p-1 border-[#8C8C8C] hover:-translate-y-2 hover:scale-110 transition ease-in-out duration-300'>About</li>
-                    <li className='hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434] rounded-2xl hover:border p-1 border-[#8C8C8C] hover:-translate-y-2 hover:scale-110 transition ease-in-out duration-300'>Features</li>
-                    <li className='hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434] rounded-2xl hover:border p-1 border-[#8C8C8C] hover:-translate-y-2 hover:scale-110 transition ease-in-out duration-300'>Pricing</li>
-                    <li className='hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434] rounded-2xl  hover:border p-1 border-[#8C8C8C] hover:-translate-y-2 hover:scale-110 transition ease-in-out duration-300'>Blog</li>
+                <ul className='flex justify-between font-inter hover:cursor-pointer h-auto'>
+                    <li className='hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434] rounded-2xl hover:border p-1 border-[#8C8C8C] hover:-translate-y-1 hover:scale-100 transition ease-in-out duration-300'>About</li>
+                    <li className='hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434] rounded-2xl hover:border p-1 border-[#8C8C8C] hover:-translate-y-1 hover:scale-100 transition ease-in-out duration-300'>Features</li>
+                    <li className='hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434] rounded-2xl hover:border p-1 border-[#8C8C8C] hover:-translate-y-1 hover:scale-100 transition ease-in-out duration-300'>Pricing</li>
+                    <li className='hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434] rounded-2xl  hover:border p-1 border-[#8C8C8C] hover:-translate-y-1 hover:scale-100 transition ease-in-out duration-300'>Blog</li>
                 </ul>
             </div>
             <div>
