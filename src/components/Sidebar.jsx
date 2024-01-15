@@ -9,7 +9,7 @@ import add from '../images/add.png'
 
 const Sidebar = () => {
     return (
-        <div className="w-[20vw] text-white pt-10 border-r-[#383838] border border-t-[transparent] border-b-[transparent] border-l-[transparent]  ">
+        <div className="w-[20vw] text-white pt-10 border-r-[#383838] border border-t-[transparent] border-b-[transparent] border-l-[transparent] max-[320px]:hidden  ">
 
             <img className='w-10 ml-9' src={logo} alt="logo design" />
 
@@ -23,9 +23,9 @@ const Sidebar = () => {
                     <li className='flex rounded-md hover:bg-gradient-to-br from-[#8c8c8c] to-[#343434]'> <img className='w-5 h-5 mr-2' src={settings} alt="settings image" /> Settings</li>
                 </ul>
             </div>
-            <div className='mt-28 ml-9 h-40 w-[15vw] flex-col justify-center items-center border-dashed border-[#9B9B9B] border-2'>
-                <img className='ml-[5vw] mt-7' src={add} alt="add image" />
-                <p className='mt-5 text-center font-inter'>Create new workspace </p>
+            <div className='mt-28 ml-9 h-40 w-[15vw] flex-col justify-center items-center border-dashed border-[#9B9B9B] border-2 max-[768px]:ml-4 max-[768px]:h-[26vh]'>
+                <img className='ml-[5vw] mt-7 max-[768px]:ml-7' src={add} alt="add image" />
+                <p className='mt-5 text-center font-inter max-[768px]:mt-4'>Create new workspace </p>
                 <p className='text-[14px] text-[#9B9B9B] text-center font-inter' >Up to 10% marketplace</p>
             </div>
 
