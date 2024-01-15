@@ -6,7 +6,7 @@ import design2 from '../images/design2.png'
 
 const Prompt = () => {
     return (
-        <div className="w-[32.7vw]  flex flex-col border-r-[#383838] border-l-[transparent] border-t-[transparent] border-b-[transparent] border mt-5 max-[320px]:hidden">
+        <div className="w-[32.7vw]  flex flex-col border-r-[#383838] border-l-[transparent] border-t-[transparent] border-b-[transparent] border mt-5 max-[320px]:hidden max-[425px]:hidden">
             <div className='w-[10vw] ml-72 p-2 border border-[#8C8C8C] rounded-2xl mr-5' >
                 <button className='flex items-center text-[#9B9B9B] '>Hide Options <img className='ml-2' src={rightarrow} alt="" /><img src={rightarrow} alt="" /></button>
             </div>

@@ -9,7 +9,7 @@ import add from '../images/add.png'
 
 const Sidebar = () => {
     return (
-        <div className="w-[20vw] text-white pt-10 border-r-[#383838] border border-t-[transparent] border-b-[transparent] border-l-[transparent] max-[320px]:hidden  ">
+        <div className="w-[20vw] text-white pt-10 border-r-[#383838] border border-t-[transparent] border-b-[transparent] border-l-[transparent] max-[320px]:hidden max-[425px]:hidden  ">
 
             <img className='w-10 ml-9' src={logo} alt="logo design" />
 

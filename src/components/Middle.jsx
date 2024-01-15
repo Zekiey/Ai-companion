@@ -11,7 +11,7 @@ import arrows from '../images/arrowsdirection.png'
 
 const Middle = () => {
     return (
-        <div className="text-white flex flex-row  w-[60vw] justify-center ml-64 justify-around mt-10 max-[320px]:flex-col max-[320px]:ml-16 max-[768px]:w-[90vw] max-[768px]:ml-10">
+        <div className="text-white flex flex-row  w-[60vw] justify-center ml-64 justify-around mt-10 max-[320px]:flex-col max-[425px]:flex-col max-[320px]:ml-16 max-[425px]:ml-20 max-[768px]:w-[90vw] max-[768px]:ml-10">
             <div className="bg-gradient-to-bl from-[rgb(140,140,140,0.40)] to-[rgb(52,52,52,0.40)] h-44 w-52 rounded-3xl pb-20  hover:-translate-y-2 hover:scale-110 transition ease-in-out duration-300  " >
                 <div className='flex mt-5 justify-center'>
                     <img className='-mr-3' src={eclipse1} alt="" />
@@ -34,7 +34,7 @@ const Middle = () => {
                 </div>
                 <div className='bg-[rgb(140,140,140,0.20)] mt-5'>
                     <div className=' flex justify-center  flex-col'>
-                        <img className='  w-[1.5vw] max-[320px]:hidden  flex justify-center text-center items-center ml-24   ' src={polygon1} alt="" />
+                        <img className='  w-[1.5vw] max-[320px]:hidden max-[425px]:hidden  flex justify-center text-center items-center ml-24   ' src={polygon1} alt="" />
                         <h1 className='text-center text-[14px] font-inter'>AI-Powered Collaboration</h1>
                         <p className='text-center text-[10px]'>Experience the future of teamwork with <br /> our AI-driven collaboration app.</p>
                     </div>
@@ -49,20 +49,20 @@ const Middle = () => {
 
                 <div className='bg-[rgb(140,140,140,0.20)] mt-5'>
                     <div className=' flex justify-center  flex-col'>
-                        <img className='  w-[1.5vw] max-[320px]:hidden  flex justify-center text-center items-center ml-24' src={schedule} alt="" />
+                        <img className='  w-[1.5vw] max-[320px]:hidden max-[425px]:hidden flex justify-center text-center items-center ml-24' src={schedule} alt="" />
                         <h1 className='text-center text-[14px] font-inter'>Effortless Scheduling</h1>
                         <p className='text-center text-[10px]'>AI powered scheduling takes the <br /> stress out of managing your time.</p>
                     </div>
                 </div>
             </div>
-            <div className="bg-gradient-to-bl from-[rgb(140,140,140,0.40)] to-[rgb(52,52,52,0.40)] h-44 w-52 rounded-3xl pb-20  hover:-translate-y-2 hover:scale-110 transition ease-in-out duration-300 max-[320px]:mt-16 " >
+            <div className="bg-gradient-to-bl from-[rgb(140,140,140,0.40)] to-[rgb(52,52,52,0.40)] h-44 w-52 rounded-3xl pb-20  hover:-translate-y-2 hover:scale-110 transition ease-in-out duration-300 max-[320px]:mt-16 max-[425px]:mt-16 " >
                 <div className='flex mt-5 justify-center'>
                     <img src={rectangle} alt="rectangle image" />
                 </div>
 
                 <div className='bg-[rgb(140,140,140,0.20)] mt-5 '>
                     <div className=' flex justify-center  flex-col'>
-                        <img className='  w-[2.8vw] max-[320px]:hidden flex justify-center text-center items-center ml-20' src={arrows} alt="" />
+                        <img className='  w-[2.8vw] max-[320px]:hidden max-[425px]:hidden flex justify-center text-center items-center ml-20' src={arrows} alt="" />
                         <h1 className='text-center text-[14px] font-inter'>AI-Expansion</h1>
                         <p className='text-center text-[10px]'>Unlock a world of possibilities with AI <br /> apps powerful expansion feature.</p>
                     </div>
